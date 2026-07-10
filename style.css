@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* common style */
+.btn {
+  color: white;
+  background-color: #1d4ed8;
+  border-style: none;
+  border-radius: 10px;
+  cursor: pointer;
+  /* font-family: Arial, Helvetica, sans-serif; */
+}
+
+.site-padding{
+  padding: 0 8%;
+}
+
+.fnt-family {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* nav css style starts here */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 17px 8%;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  gap: 18px;
+  font-size: 17px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(91, 89, 89);
+}
+
+.register-btn {
+  padding: 10px 32px;
+  font-weight: 500;
+  font-size: 15px;
+}
+/* nav ends here */
+
+
+/* hero or header sections css style begins here */
+
+header {
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("./assets/banner.jpg");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  text-align: center;
+}
+
+
+.hero-content {
+  color: rgb(255, 255, 255);
+  width: 50%;
+  display: grid;
+  gap: 15px;
+  margin-top: 95px;
+}
+
+.hero-content h2{
+  font-size: 62px;
+  width: 100%;
+}
+
+.hero-content p{
+  font-size: 20px;
+  width: 670px;
+  height: 275px;
+}  
+
+/* .hero-content p{
+ /* font-size: 18px;
+  width: 80%;
+  /* text-align: center; */
+  /* margin-bottom: 170px; */ 
+  /* display: flex;
+  align-items: center; */
+  /* justify-content: center; */
+/* } */ 
+ 
+
+.banner-button {
+  font-weight: 600;
+  font-size: 17px;
+  width: 50%;
+  /* margin: 30% 0% 0% 25%; */
+  margin-left: 25%;
+}
+
+.banner-button button{
+  padding: 20px 50px;
+  font-size: 17px;
+  font-weight: 600;
+}
+/* hero or header sections begins here */
+
+
+
