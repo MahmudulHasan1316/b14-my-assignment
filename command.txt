@@ -1,0 +1,1 @@
+suppose, developer conference will be held on 20th july,2026. now i want to collect data (name, day, message, time, date,mail,mobile number etc.) from every participant of developer conference. so explain me how can i make a form using html and css as i am an absolute beginner.
