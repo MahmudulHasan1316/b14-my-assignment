@@ -3,14 +3,22 @@
   padding: 0;
 }
 
+body {
+  background-color: #cccccc;
+}
+
 /* common style */
+
+.bg-color {
+  background-color: white;
+}
+
 .btn {
   color: white;
   background-color: #1d4ed8;
   border-style: none;
   border-radius: 10px;
   cursor: pointer;
-  /* font-family: Arial, Helvetica, sans-serif; */
 }
 
 .site-padding {
@@ -21,6 +29,12 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.common-heading {
+  margin: 110px 0 50px;
+  text-align: center;
+  font-size: 30px;
+}
+
 /* nav css style starts here */
 nav {
   display: flex;
@@ -29,7 +43,7 @@ nav {
   padding: 17px 8%;
 }
 
-ul {
+.nav-unorder-list {
   display: flex;
   list-style: none;
   gap: 18px;
@@ -60,7 +74,6 @@ header {
   background-size: cover;
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
   align-items: center;
   text-align: center;
 }
@@ -88,7 +101,6 @@ header {
   font-weight: 600;
   font-size: 17px;
   width: 50%;
-  /* margin: 30% 0% 0% 25%; */
   margin-left: 25%;
 }
 
@@ -97,47 +109,38 @@ header {
   font-size: 17px;
   font-weight: 600;
 }
-/* hero or header sections begins here */
-
+/* hero or header sections ends here */
 
 /* main section (meet the speakers) css style starts here*/
-
-.meet-speakers-heading h2 {
-  margin: 80px;
-  text-align: center;
-  font-size: 50px;
-}
-
 
 /* common styles for meet the speakers section */
 .meet-speakers-first-p {
   color: #1d4ed8;
   font-weight: 600;
   font-size: 12px;
-  padding: 18px 0 12px;
 }
 
 .meet-speakers-second-p {
   color: #575757;
   font-size: 12px;
-  padding: 12px 0 20px;
+  padding-bottom: 20px;
 }
 
-.speaker-name{
-    font-weight: 600;
-    font-size: 18px;
+.speaker-name {
+  font-weight: 600;
+  font-size: 18px;
 }
 
 .image {
   width: 100%;
   border-radius: 15px 15px 0 0;
+  margin-bottom: 20px;
 }
 
 /* common styles for meet the speakers section */
 
-
 .site-padding {
-  padding: 40px 8%;
+  padding: 0 8%;
 }
 
 .meet-speakers-container {
@@ -147,12 +150,114 @@ header {
 }
 
 .meet-speakers-img-content {
-    border: 1px solid rgb(228, 225, 225);
-    border-radius: 15px;
+  border-color: white;
+  border-radius: 15px;
 }
-
 
 .speaker-content {
-    margin-left: 20px;
+  margin-left: 20px;
+  line-height: 27px;
 }
 /* main section (meet the speakers) css style ends here*/
+
+
+
+/* <!-- card section css style (secure your spot) starts here --> */
+
+.common-heading p {
+  color: #888888;
+  font-size: 15px;
+  margin-top: 12px;
+}
+
+.card-first-p {
+  color: #888888; 
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.card-second-p {
+  color: #888888;  
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.card-item {
+  line-height: 38px;
+}
+
+.card-heading {
+  font-size: 42px;
+  font-weight: 700;
+}
+
+.card-list {
+  font-weight: 500;
+  font-size: 15px;
+  color: #575757;
+  line-height: 32px;
+  margin: 42px 0 20px 20px;
+}
+
+li::marker {
+  color: #1d4ed8;
+}
+
+.card-button {
+  color: #1d4ed8;
+  font-weight: 600;
+  font-size: 15px;
+  border: 1px solid #1d4ed8;
+  border-radius: 5px;
+  padding: 10px 82px;
+  cursor: pointer;
+}
+
+.card-container-item {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.card-content {
+  width: 100%;
+  padding: 50px;
+  border-radius: 10px;
+}
+
+.bg-middle-color {
+  background-color: #0d1b2a;
+}
+
+span {
+  color: #1d4ed8;
+}
+
+.heading-color {
+  color: white;
+}
+
+.paragraph-color {
+    color: #868D94;
+}
+
+.list-color {
+  color: #888888;
+}
+
+.button-bg-color {
+  color: white;
+  background-color: #1d4ed8;
+  width: 100%;
+}
+
+.contact-button {
+  color: #0D1B2A;
+  font-weight: 600;
+  font-size: 15px;
+  border: 1px solid #0D1B2A;
+  border-radius: 5px;
+  padding: 10px 82px;
+  cursor: pointer;
+}
+/* <!-- card section css style (secure your spot) ends here --> */
