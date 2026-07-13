@@ -262,6 +262,40 @@ span {
 }
 /* <!-- card section css style (secure your spot) ends here --> */
 
+
+/* css style of missing part starts here */
+.missing-part {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+
+.faq {
+  margin: 10px 0 20px;
+  /* text-align-last: right; */
+  font-size: 25px;
+  font-weight: 800;
+}
+
+.faq-p {
+  color: #1d4ed8;
+}
+.faq-details {
+  padding: 15px 0;
+}
+
+.check-box {
+  padding: 8px 20px;
+}
+
+input{
+  padding: 10px 30px;
+  margin: 10px 0;
+}
+
+/* css style of missing part ends here */
+
 /* fotter section starts here */
 
 footer {
