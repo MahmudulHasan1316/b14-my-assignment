@@ -267,7 +267,7 @@ span {
 .missing-part {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 30px;
+  gap: 50px;
 }
 
 .name-item {
@@ -302,6 +302,8 @@ span {
 
 .message-item {
   padding: 15px;
+  border-radius: 7px;
+  border-style: none;
 }
 
 .form-button {
