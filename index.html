@@ -289,22 +289,14 @@
 
           <div>
             <form>
-              <div class="">
-                <label for="" class="fnt-family label-item">Name:</label>
-                <input
-                  class="form-content"
-                  type="text"
-                  placeholder="First Name"
-                />
-                <input
-                  class="form-content"
-                  type="text"
-                  placeholder="Last Name"
-                />
-              </div>
+              <label for="" class="fnt-family">Name:</label>
+              <input class="name-item" type="text" placeholder="First Name" />
+              <input class="last-name" type="text" placeholder="Last Name" />
+              <br />
               <!--    -->
               <label for="" class="fnt-family">Age:</label>
               <input
+                class="enter-your-age age-item"
                 type="number"
                 placeholder="Enter Your Age"
                 min="15"
@@ -312,51 +304,73 @@
               />
               <br />
 
+              <!--  -->
               <label for="" class="fnt-family">Gender:</label>
-              <input type="radio" id="male" name="gender" value="male" />
+              <input
+                class="radio-item"
+                type="radio"
+                id="male"
+                name="gender"
+                value="male"
+              />
               <label for="" class="fnt-family">Male</label>
-              <input type="radio" id="female" name="gender" value="female" />
+              <input
+                class="gender-item"
+                type="radio"
+                id="female"
+                name="gender"
+                value="female"
+              />
               <label for="" class="fnt-family">Female</label>
-              <input type="radio" id="other" name="gender" value="other" />
+              <input
+                class="gender-item"
+                type="radio"
+                id="other"
+                name="gender"
+                value="other"
+              />
               <label for="" class="fnt-family">Other</label><br />
-
-              <label for="" class="fnt-family">Position Available:</label>
-              <select name="" id="" class="check-box">
+              <!--  -->
+              <label for="" class="fnt-family">Position:</label>
+              <select name="" id="" class="select-item">
                 <option value="" class="fnt-family">Junior Developer</option>
                 <option value="" class="fnt-family">Mid-Level Developer</option>
                 <option value="" class="fnt-family">
                   Senior Developer
                 </option></select
               ><br />
-
+              <!-- -->
               <label for="" class="fnt-family">Email:</label>
               <input
-                class="fnt-family"
+                class="fnt-family email-item"
                 type="email"
                 name="email"
                 id=""
                 placeholder="Enter Your Email"
               /><br />
+              <!--  -->
               <label for="" class="fnt-family">Password:</label>
               <input
-                class="fnt-family"
+                class="fnt-family password-item"
                 type="password"
                 name=""
                 id=""
                 placeholder="Password"
-              /><br />
-
+              /> <br>
+              <!--  -->
               <textarea
-                class="fnt-family"
+                class="fnt-family message-item"
                 name="message"
                 id=""
-                rows="3"
-                cols="60"
+                rows=""
+                cols="80"
                 placeholder="Type your thought!"
               ></textarea
               ><br />
-
-              <button class="fnt-family">Submit</button>
+              <div class="missing-part-btn">
+                <button class="fnt-family form-button">Submit</button>
+                <button class="fnt-family form-button">Reset</button>
+              </div>
             </form>
           </div>
         </div>
@@ -380,7 +394,11 @@
               <a href=""><i class="fa-brands fa-linkedin text-color"></i></a>
             </li>
             <li>
-              <a href=""><i class="fa-brands fa-x-twitter text-color"></i></a>
+              <a
+                href="https://www.youtube.com/watch?v=73jcZAUktSo"
+                target="_blank"
+                ><i class="fa-brands fa-x-twitter text-color"></i
+              ></a>
             </li>
             <li>
               <a href=""><i class="fa-brands fa-instagram text-color"></i></a>

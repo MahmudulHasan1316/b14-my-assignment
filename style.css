@@ -111,6 +111,9 @@ header {
 }
 /* hero or header sections ends here */
 
+
+
+
 /* main section (meet the speakers) css style starts here*/
 
 /* common styles for meet the speakers section */
@@ -160,8 +163,6 @@ header {
 }
 /* main section (meet the speakers) css style ends here*/
 
-
-
 /* <!-- card section css style (secure your spot) starts here --> */
 
 .common-heading p {
@@ -171,13 +172,13 @@ header {
 }
 
 .card-first-p {
-  color: #888888; 
+  color: #888888;
   font-size: 14px;
   font-weight: 500;
 }
 
 .card-second-p {
-  color: #888888;  
+  color: #888888;
   font-size: 12px;
   font-weight: 500;
 }
@@ -238,7 +239,7 @@ span {
 }
 
 .paragraph-color {
-    color: #868D94;
+  color: #868d94;
 }
 
 .list-color {
@@ -252,16 +253,15 @@ span {
 }
 
 .contact-button {
-  color: #0D1B2A;
+  color: #0d1b2a;
   font-weight: 600;
   font-size: 15px;
-  border: 1px solid #0D1B2A;
+  border: 1px solid #0d1b2a;
   border-radius: 5px;
   padding: 10px 82px;
   cursor: pointer;
 }
 /* <!-- card section css style (secure your spot) ends here --> */
-
 
 /* css style of missing part starts here */
 .missing-part {
@@ -270,17 +270,65 @@ span {
   gap: 30px;
 }
 
-/* .label-item {
-  margin: 500px 0;
-} */
+.name-item {
+  margin-left: 30px;
+  width: 180px;
+}
 
-/* form {
+.last-name {
+  margin-left: 35px;
+  width: 180px;
+}
+
+.age-item {
+  margin-left: 45px;
+}
+
+.radio-item {
+  margin: 10px 5px 18px 21px;
+}
+
+.gender-item {
+  margin: 0 5px 0 15px;
+}
+
+.email-item {
+  margin: 20px 0 10px 36px;
+}
+
+.password-item {
+  margin: 10px 0 20px 8px;
+}
+
+.message-item {
+  padding: 15px;
+}
+
+.form-button {
+  color: #0d1b2a;
+  font-weight: 600;
+  font-size: 15px;
+  border: 1px solid #0d1b2a;
+  border-radius: 5px;
+  padding: 10px 82px;
   margin-top: 10px;
-} */
+  cursor: pointer;
+}
+
+.form-button:hover {
+  color: white;
+  background-color: #1d4ed8;
+}
+
+
+.missing-part-btn {
+  display: flex;
+  justify-content: left;
+  gap: 30px;
+}
 
 .faq {
   margin: 10px 0 20px;
-  /* text-align-last: right; */
   font-size: 25px;
   font-weight: 800;
 }
@@ -299,13 +347,24 @@ span {
   padding: 15px 0;
 }
 
-.check-box {
-  padding: 8px 20px;
+.select-item {
+  padding: 8px 30px;
+  margin-left: 19px;
+  border-radius: 7px;
+  border-style: none;
+  font-size: 15px;
 }
 
-input{
+input {
   padding: 10px 30px;
   margin: 10px 0;
+  border-radius: 7px;
+  border-style: none;
+}
+
+
+.enter-your-age {
+  width: 30%;
 }
 
 /* css style of missing part ends here */
@@ -313,11 +372,9 @@ input{
 /* fotter section starts here */
 
 footer {
-  background-color: #0D1B2A;
+  background-color: #0d1b2a;
   margin-top: 110px;
-  /* padding: 35px 0; */
 }
-
 
 .footer-content {
   display: flex;
@@ -328,7 +385,6 @@ footer {
   padding-bottom: 18px;
 }
 
-
 .social-icon {
   list-style: none;
   display: flex;
@@ -337,16 +393,14 @@ footer {
   gap: 20px;
 }
 
-
 .fotter-copyright {
   display: flex;
   justify-content: space-between;
   gap: 5px;
 }
 
-
 .text-color {
-  color: #868D94;
+  color: #868d94;
   font-size: 13px;
 }
 
@@ -359,7 +413,7 @@ footer {
 
 hr {
   margin: 0 8%;
-    border: none;
-    height: 1px;
-    background-color: #868D94;
+  border: none;
+  height: 1px;
+  background-color: #868d94;
 }
